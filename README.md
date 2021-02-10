@@ -9,8 +9,19 @@
 - [github](https://github.com/chartjs/Chart.js)
   - Star : 52.1k
 
+### ※ React Rapper
+今考えているニーズとしては
+- サーバ側で動かす（サーバ上でChromeを動かしてCanvasを起動）
+- Canvas上に描ければいい
+
+なので、Reactを使う必要はないが、もしReact側で何かしたい、という場合ならこれが使えそう。
+とりあえず動きを確認したい、というニーズならこっちを使った方が楽かも。
+
+- [github](https://github.com/reactchartjs/react-chartjs-2)
+  - Star : 3.7k
+
 #### 参考
-- https://qiita.com/Haruka-Ogawa/items/59facd24f2a8bdb6d369
+- https://dev.classmethod.jp/articles/react-ts-chart-js/
 
 
 ## TODO
@@ -19,9 +30,9 @@
 - [x] Webpackで起動
 
 ### 作図
-- [ ] 棒グラフ
-- [ ] 散布図
-- [ ] レーダーチャート
+- [x] 棒グラフ
+- [x] 散布図
+- [x] レーダーチャート
 
 ## 参考
 - https://ics.media/entry/16329/
